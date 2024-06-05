@@ -5,7 +5,7 @@ body {
     box-sizing: border-box;
 }
 #main {
-    background-color:rgb(255, 248, 219);
+    background-color:rgb(213, 250, 250);
 }
 #about {
     background-color: rgb(247, 247, 225);
@@ -151,8 +151,8 @@ font-size: 25px;
 }
 .resume h2 {
     color: purple;
-    margin-bottom:auto;
     border: none;
+    margin-top: 20px;
 }
 .resume article {
     float: left;
@@ -198,6 +198,7 @@ font-size: 25px;
     color: rgb(5, 119, 27);
     font-weight: 700;
     word-spacing: 7px;
+    padding-top: 20px;
 }
 .work img{
     border: 1;
