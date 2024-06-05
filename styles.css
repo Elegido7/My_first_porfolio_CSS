@@ -211,9 +211,8 @@ font-size: 25px;
     border-style: groove;
 }
 .work h2{
-    margin-top: 30px;
     text-align: left;
-    margin-bottom: -10px;
+    padding-top: 30px;
 }
 .footer {
     position: fixed;
