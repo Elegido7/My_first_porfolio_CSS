@@ -202,13 +202,18 @@ font-size: 25px;
     color: rgb(5, 119, 27);
     font-weight: 700;
     word-spacing: 7px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .work img{
     border: 1;
     border-radius: 25px;
     border-color: rgb(51, 235, 173);
     border-style: groove;
+}
+.work h2{
+    margin-top: 30px;
+    text-align: left;
+    margin-bottom: -10px;
 }
 .footer {
     position: fixed;
