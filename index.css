@@ -1,9 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 body {
     margin: 2px;
-    background-color: rgb(248, 240, 240);
     font-family: "Times New Roman", Times, serif;
     box-sizing: border-box;
+}
+#main {
+    background-color:rgb(255, 248, 219);
+}
+#about {
+    background-color: rgb(247, 247, 225);
+}
+#contact {
+    background-color:rgb(242, 240, 240);
+   text-align: center;
+}
+#resume {
+    background-color:rgb(221, 252, 252);
+}
+#work {
+    background-color:rgb(250, 250, 241);
 }
 nav {
     background-color: aquamarine;
@@ -43,6 +58,10 @@ nav ul {
     height: 460px;
     width: 400px;
 }
+img:hover {
+opacity: 0.5;
+}
+
 article {
     float: left;
     display: block;
@@ -85,12 +104,13 @@ b {
 .contact, input, select, textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
-    width: 80%;
-    padding: 12px;
+    width:85%;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-top: 6px;
     margin-bottom: 16px;
+    display: inline;
 }
 .contact, label {
     font-size: 23px;
@@ -98,6 +118,7 @@ b {
     color: purple;
     margin-right: 30px;
 }
+
 .button {
     text-align: center;
     font-size: 28px;
@@ -116,6 +137,7 @@ b {
 }
 h1 {
 color: blue;
+font-size: 25px;
 }
 .resume h2 {
     color: purple;
@@ -135,7 +157,44 @@ color: blue;
     width: 45%;
     margin-right: 3%;
 }
-
+#table, th, td{
+    border-collapse: collapse;
+    line-height: 25px;
+    padding-left: 12px;
+    border-color: darkturquoise;
+    border-width: 2px;
+}
+#table th {
+    color: rgb(5, 161, 5);
+}
+#table tr:hover{
+    background-color: rgb(146, 250, 215);
+}
+.work article {
+    float: left;
+    display: block;
+    padding: 12px 14px;
+    width: 42%;
+    margin-left: 1.5%;
+}
+.work aside {
+    float: right;
+    display: block;
+    width: 47%;
+    margin-right: 3%;
+    margin-top: 50px;
+}
+.work h3 {
+    color: rgb(5, 119, 27);
+    font-weight: 700;
+    word-spacing: 7px;
+}
+.work img{
+    border: 1;
+    border-radius: 25px;
+    border-color: rgb(51, 235, 173);
+    border-style: groove;
+}
 .footer {
     position: fixed;
     left: 0;

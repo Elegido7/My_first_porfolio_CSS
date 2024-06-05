@@ -6,7 +6,7 @@
     <title>REVO_AI</title>
     <link rel="stylesheet" href="index.css"/>
   </head>
-  <body>
+  <body id="work">
     <nav>
       <ul>
         <li><a href="/index.html"><img src="images/AI Logo.png" alt="100" width="" height="60"></a></li>
@@ -17,9 +17,11 @@
         <li><a href="/contact.html">Contact</a></li>
     </ul>
   </nav>
-    <h2 id="work" style="color: blue;">Work</h2>
-    <h3>Areas of specialization</h3>
-    <table border="1">
+  <section class="work">
+  <article>
+    <h1>Areas of specialization</h1>
+  
+    <table border="1" id="table">
         <tr style="align-items: center;">
             <th>Machine Learning and Data Analytics</th>
             <td>Our machine learning models analyze vast amounts of data, uncovering patterns and  insights that drive informed business decisions.</td>
@@ -38,26 +40,21 @@
         </tr>
     </table>
     <h2 style="color:purple">Projects</h2>
-    <div>
-    <article>
+    
         <h3>Object Detection</h3>
         <p>In the Object Detection project, the first step is to break down the image into tiles. Then, you will use a pre-trained VGG-16 CNN to predict the probability of a cat being present in the image. Finally, you will create a heatmap of probabilities to indicate the location of the cat within the image. In order to provide a more accurate location for a bounding box, you must use a regression model to predict its coordinates.</p>
-    </article>
-    </div>
-    <div>
-    <aside>
+    
+    
         <img src="images/Cat detection.png" width="700" height="300" alt="">
-    </aside>
-    </div>
-    <section>
-        <h3>Stock Market Analysis And Forecasting </h3>
+  </article>
+  <aside>
+        <h3>Stock Market Analysis and Forecasting </h3>
         <p>Discover and explore stock market data, focusing on technology stocks such as Apple, Amazon, Google, and Microsoft in the Stock Market Analysis and Forecasting using the LSTM project.Learn how to retrieve stock information using the yfinance library and visualize it using Seaborn and Matplotlib. Analyze a stock's risk based on its previous performance history. Finally, build an AI model using the Long Short Term Memory (LSTM) method to predict future stock prices.</p>
-    </section>
-    <aside>
-        <img src="images/forecast.png" width="1000" height="400" alt="">
-    </aside>
+    
+        <img src="images/forecast.png" width="700" height="300" alt="">
 </div>
-<hr>
+</aside>
+</section>
   <footer>
     <section class="footer">
         <!--footer centered for better presentation-->
