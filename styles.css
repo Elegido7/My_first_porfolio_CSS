@@ -4,12 +4,13 @@
 }
 
 body {
-    
     margin: 0;
-    box-sizing: border-box;
+    margin-top: -20px !important;
 }
+
 #main {
     background-color:rgb(213, 250, 250);
+   
 }
 #about {
     background-color: rgb(247, 247, 225);
@@ -25,22 +26,23 @@ body {
 }
 nav {
     background-color: aquamarine;
+  
+}
+nav li {
+    display: inline;
 }
 nav a {
     text-decoration: none;
     font-size: 20px;
     text-shadow: 30px;
     font-weight: 600;
-    line-height: 30px;
-    text-align: center;
     margin-right: 15px;
+    
 }
 nav ul {
     list-style: none;
-    line-height: 50px;
-    display: inline-flex;
-    margin-top: 20px;
-    margin-bottom: -10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
 .link2 a {
     text-decoration: none;
